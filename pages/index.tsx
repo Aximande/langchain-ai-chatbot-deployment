@@ -260,7 +260,7 @@ export default function Home() {
         </div>
         <footer className="m-auto p-4">
           <a href="">
-            Powered by Konverso. Demo built by Alex
+            La Revue IA. Demo built by Alex
           </a>
         </footer>
       </Layout>
