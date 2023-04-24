@@ -7,7 +7,7 @@ import { PINECONE_INDEX_NAME, PINECONE_NAME_SPACE } from '@/config/pinecone';
 import { DirectoryLoader } from 'langchain/document_loaders';
 
 /* Name of directory to retrieve your files from */
-const filePath = 'docs';
+const filePath = '/Users/ladislas/Downloads/gpt4-pdf-chatbot-langchain-feat-retriever/docs/Magic-Gatherer';
 
 export const run = async () => {
   try {

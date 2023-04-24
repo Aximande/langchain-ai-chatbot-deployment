@@ -9,6 +9,6 @@ if (!process.env.PINECONE_INDEX_NAME) {
 
 const PINECONE_INDEX_NAME = process.env.PINECONE_INDEX_NAME ?? '';
 
-const PINECONE_NAME_SPACE = 'ai-chatbot-deployment'; //namespace is optional for your vectors
+const PINECONE_NAME_SPACE = "AI-chatbot-deployment";
 
 export { PINECONE_INDEX_NAME, PINECONE_NAME_SPACE };
