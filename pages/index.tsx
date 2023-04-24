@@ -25,7 +25,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hi, I am a HR bot trained on Lego external doc, ask me anything',
+        message: 'I am your Magic-GPT companion, still in early phase, but ask me any question about Magic rules',
         type: 'apiMessage',
       },
     ],
