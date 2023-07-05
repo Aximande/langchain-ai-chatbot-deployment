@@ -25,7 +25,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'I am your Magic-GPT companion, still in early phase, but ask me any question about Magic rules',
+        message: 'Je suis votre agent Kompass, posez moi des questions en lien sur IA générative, et les perspectives marchés à venir ',
         type: 'apiMessage',
       },
     ],
@@ -221,8 +221,8 @@ export default function Home() {
                     name="userInput"
                     placeholder={
                       loading
-                        ? 'Browsing into Magic The Gathering comprehensive rules, please wait...'
-                        : 'What is your Magic question about?'
+                        ? 'Merci de patienter pendant que notre Agent Kompass cherche dans sa base de données...'
+                        : 'A quel sujet est votre question ?'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
@@ -260,7 +260,7 @@ export default function Home() {
         </div>
         <footer className="m-auto p-4">
           <a href="">
-            La Revue IA. Demo built by Alex
+            Passeport-IA. Demo construite par Alex pour Kompass
           </a>
         </footer>
       </Layout>
